@@ -1,0 +1,1 @@
+web: gunicorn Dukka_pay.wsgi --log-file -
