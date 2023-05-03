@@ -1,1 +1,1 @@
-web: gunicorn Dukka_pay.wsgi --log-file -
+web: gunicorn 'Dukka_pay.wsgi'
