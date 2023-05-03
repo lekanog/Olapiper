@@ -48,7 +48,6 @@ CUSTOM_APPS = [
     'rest_framework',
     'corsheaders',
     'users',
-    'celery',
     'Paymentmethod',
     'Paymenthistory',
 ]

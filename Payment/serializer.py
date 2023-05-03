@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from Paymentmethod import Card
+from Paymentmethod.models import Card
 from .models import Payment
 from users.models import Users
 

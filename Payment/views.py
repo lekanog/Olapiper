@@ -1,7 +1,6 @@
 from rest_framework.views import APIView
 from datetime import datetime, timedelta, date
 from rest_framework.response import Response
-# from celery.task import periodic_task
 from utils.api_helper import response_maker, request_data_normalizer
 from rest_framework.status import (
     HTTP_400_BAD_REQUEST,
@@ -10,7 +9,6 @@ from rest_framework.status import (
 )
 from .serializer import PaymentSerializer
 from django.shortcuts import render,redirect,get_object_or_404
-# from django_celery_beat.models import PeriodicTask
 from .models import Payment
 from Paymenthistory.models import Paymenthistory
 from Paymentmethod.models import Card
