@@ -15,7 +15,7 @@ class CardSerializer(serializers.ModelSerializer):
 
 class PaymentSerializer(serializers.ModelSerializer):
     method = CardSerializer()
-    users = UserSerializer()
+    user = UserSerializer()
     class Meta:
         model = Payment
         fields = '__all__'
