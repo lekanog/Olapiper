@@ -19,6 +19,8 @@ Payment View: Users can view their personal payments.
 
 All Payment View: Superusers can view all users' payments.
 
+Using this as the url https://web-production-0269.up.railway.app/ it can be also be tested on line or on postman. It was hosted on railway.app as suggested
+
 
 #API Endpoints
 The following API endpoints are available:
