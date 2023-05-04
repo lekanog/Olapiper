@@ -72,3 +72,6 @@ To view payment history, users should send a GET request to the /paymenthistory/
 
 Viewing All Payment History
 To view payment history for all users, superusers should send a GET request to the /allhistory/ endpoint. The response to this request will include a list of all payments made
+
+
+Using this  as the url https://web-production-0269.up.railway.app/ it can be also be tested on line or on postman.
