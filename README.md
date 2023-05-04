@@ -51,14 +51,22 @@ Creating a New Payment
 To create a new recurring payment, users should send a POST request to the /createpayment/ endpoint. The request body should include the following information:
 
 item: The name of the product being purchased.
+
 item_id: The id of the item
+
 amount: The amount of the payment.
+
 frequency: The frequency of the payment (e.g. monthly, weekly, yearly).
+
 method: The id of the card being used to make the payment.( So basically you need to add a card first before processing payment)
+
+
 Terminating a Payment
 To terminate a recurring payment, users should send a POST request to the /terminate/ endpoint. The request body should include the following information:
 
 payment_id: The ID of the payment that should be terminated.
+
+
 Viewing Payment History
 To view payment history, users should send a GET request to the /paymenthistory/ endpoint. The response to this request will include a list of all payments made by the user.
 
